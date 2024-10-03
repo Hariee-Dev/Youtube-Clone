@@ -1,0 +1,162 @@
+.img-1 {
+  width: 100%;
+}
+.img-2 {
+  width: 100%;
+}
+
+.sen-0 {
+  font-family: roboto, arial;
+  font-size: 14px;
+  font: weight 500px;
+  margin-bottom: 10px;
+}
+
+.sen-1 {
+  color: #606060;
+  font-family: roboto, arial, sans-serif;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.sen-2 {
+  color: #606060;
+  font-family: roboto, arial, sans-serif;
+  font-size: 12px;
+}
+
+.channel-picture {
+  display: inline-block;
+  width: 50px;
+  vertical-align: top;
+}
+
+.video-info {
+  display: inline-block;
+  width: 200px;
+}
+.profile-1 {
+  width: 36px;
+  border-radius: 30px;
+}
+
+.sen-0 {
+  margin-top: 0px;
+}
+
+.thumbnail-1 {
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.video-preview-2 {
+  display: inline-block;
+  vertical-align: top;
+}
+.thumbnail-2 {
+  margin-bottom: 8px;
+  position: relative;
+}
+.channel-picture-2 {
+  width: 50px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.sen-3 {
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+.profile-2 {
+  width: 38px;
+  border-radius: 30px;
+}
+
+.sen-4 {
+  color: #606060;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.sen-5 {
+  color: #606060;
+  font-size: 12px;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}
+
+@media (max-width: 750px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 751px) and (max-width: 999px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 1000px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.video-time {
+  background-color: black;
+  color: white;
+  font-family: roboto, arial;
+  font-size: 12px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 2px;
+
+  position: absolute;
+  bottom: 0px;
+  right: 5px;
+  bottom: 8px;
+}
+
+.time-2 {
+  background-color: black;
+  color: white;
+  font-family: roboto, arial;
+  font-size: 12px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 2px;
+
+  position: absolute;
+  bottom: 0px;
+  right: 5px;
+  bottom: 8px;
+}
+
+.notification {
+  position: relative;
+}
+
+.time-notification {
+  position: absolute;
+  background-color: rgb(200, 0, 0);
+  top: -2px;
+  right: -4px;
+  color: white;
+  font-family: roboto, arial;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+
+  font-size: 11px;
+
+  border-radius: 20px;
+}

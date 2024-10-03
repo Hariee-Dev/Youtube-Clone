@@ -1,0 +1,72 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    top: 55px;
+    bottom: 0;
+    background-color: white;
+    width: 72px;
+}
+.sidebar-link{
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   padding-top: 5px;
+    
+   
+}
+
+.sidebar-link:hover{
+    background-color: rgb(235,235, 235);
+}
+
+.sidebar-link img{
+    height: 24px;
+    width:24px;
+    margin-bottom: 5px;
+ 
+
+}
+
+.sidebar-link div{
+
+    font-family: roboto, arial;
+    font-size: 10px;
+    
+}
+.search-but, .voice_but, .icons , .notification,.upload_container{
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .search_but  .toolkit,
+ .voice_but .toolkit , .icons .toolkit , .notification  .toolkit, .upload_container .toolkit{
+   position: absolute;
+   background-color: grey;
+   color: white;
+   padding-top: 2px;
+   padding-bottom: 2px;
+   padding-left: 8px;
+   padding-right: 8px;
+   border-radius: 2px;
+   font-size: 12px;
+   bottom: -13px;
+   opacity: 0;
+   transition: opacity 0.15s;
+   pointer-events: none;
+   white-space: nowrap;
+
+
+
+
+}
+
+.voice_but:hover .toolkit ,.search_but:hover .toolkit, .icons:hover  .toolkit, .notification:hover  .toolkit, .upload_container:hover .toolkit{
+    opacity: 1;
+
+}
